@@ -30,10 +30,10 @@ func measure(g shape) {
 	fmt.Println(g.area())
 }
 
-func main() {
-	r := rectangle{width: 3, height: 4}
-	c := circle{radius: 5}
+// func main() {
+// 	r := rectangle{width: 3, height: 4}
+// 	c := circle{radius: 5}
 
-	measure(r)
-	measure(c)
-}
+// 	measure(r)
+// 	measure(c)
+// }
